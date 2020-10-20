@@ -26,6 +26,10 @@ export default function Header({ title }) {
           color: white;
           margin-right: 30px;
         }
+        ul li a {
+          color: white;
+          text-decoration: none;
+        }
       `} </style>
     </div>
 
