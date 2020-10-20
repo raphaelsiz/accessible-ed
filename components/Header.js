@@ -1,6 +1,6 @@
 export default function Header({ title }) {
   return (
-    <div>
+    <div class="header">
       <ul>
         <li>Home</li>
         <li>Products</li>
