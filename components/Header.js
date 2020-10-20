@@ -6,7 +6,7 @@ export default function Header({ title }) {
         <li>Products</li>
         <li>Collections</li>
       </ul>
-        <style jsx>{`
+      <style jsx>{`
         div {
           width: 100%;
           position: absolute;
@@ -14,9 +14,9 @@ export default function Header({ title }) {
           top: 0px;
           margin: 0px;
           padding: 0px;
-          background: #1887b4;
         }
         ul {
+          background: #1887b4;
           list-style: none;
           display: flex;
         }
