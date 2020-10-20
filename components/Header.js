@@ -19,6 +19,10 @@ export default function Header({ title }) {
           background: #1887b4;
           list-style: none;
           display: flex;
+          color: white;
+        }
+        ul li {
+          margin-right: 30px;
         }
       `} </style>
     </div>
