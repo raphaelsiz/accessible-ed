@@ -4,8 +4,8 @@ export default function Header({ title }) {
     <div>
       <ul>
         <li><Link href="/"><a>Home</a></Link></li>
-        <li>About</li>
-        <li>Courses</li>
+        <li><Link href="/about"><a>About</a></Link></li>
+        <li><Link href="/courses"><a>Courses</a></Link></li>
       </ul>
       <style jsx>{`
         div {
