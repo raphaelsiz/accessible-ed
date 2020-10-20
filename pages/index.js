@@ -12,12 +12,18 @@ export default function Home() {
       </Head>
       <main>
         <Header title="Welcome to my app!" />
-        <p color="black">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <div className="page">
+          <h1>What the fuckkkkkkkkkkkkkkkkkkkkkkkkkkk</h1>
+        </div>
       </main>
-
       <Footer />
+      <style jsx>{`
+        .page {
+          display: flex;	
+          flex-direction: column;	
+          justify-content: center;
+        }
+      `}</style>
     </div>
   )
 }
