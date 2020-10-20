@@ -14,11 +14,16 @@ export default function Header({ title }) {
           top: 0px;
           margin: 0px;
           padding: 0px;
+          background: #1887b4;
         }
         ul {
           background: #1887b4;
           list-style: none;
           display: flex;
+        }
+        ul li {
+          color: white;
+          margin-right: 30px;
         }
       `} </style>
     </div>
