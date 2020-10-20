@@ -1,37 +1,17 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Buy from '@components/Buy'
 import Footer from '@components/Footer'
 import Link from 'next/link'
 
 export default function Home() {
-  paypal.Buttons({
-    createOrder: function(data, actions) {
-      return actions.order.create({
-        purchase_units: [{
-          amount: {
-            value: '1.00'
-          }
-        }]
-      });
-    },
-    onApprove: function(data, actions) {
-      return actions.order.capture().then(function(details) {
-        alert('Transaction completed by ' + details.payer.name.given_name);
-      });
-    }
-  }).render('#paypal-button-container');
   return (
     <div className="container">
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://www.paypal.com/sdk/js?client-id=AcW3TDR5BIwM9HUVlLJvITP9fo_w5mSdOUCu-PSqtRhl8S1ozx5LeZdDMiIVuC7lfhgRGE8qaiG-rFgT"></script>
       </Head>
-
       <main>
         <Header title="Welcome to my app!" />
-        //<Buy/>
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
