@@ -1,10 +1,11 @@
+import Link from 'next/link';
 export default function Header({ title }) {
   return (
     <div>
       <ul>
-        <li>Home</li>
-        <li>Products</li>
-        <li>Collections</li>
+        <li><Link href="/"><a>Home</a></Link></li>
+        <li>About</li>
+        <li>Courses</li>
       </ul>
       <style jsx>{`
         div {
