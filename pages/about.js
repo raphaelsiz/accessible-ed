@@ -7,15 +7,16 @@ export default function Products(){
   return (
     <div>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to my app!"/>
         <p className="description">
           testing
         </p>
+        <Footer/>
       </main>
     </div>
   )
