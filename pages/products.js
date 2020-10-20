@@ -5,7 +5,16 @@ import Link from 'next/link'
 
 export default function Products(){
   return (
-    <p>testing</p>
-    
+      <Head>
+        <title>Next.js Starter!</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+      <main>
+        <Header title="Welcome to my app!" />
+        <p className="description">
+          testing
+        </p>
+      </main>
   )
 };
