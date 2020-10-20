@@ -4,4 +4,8 @@ div.header {
   left: 0;
   margin: 0;
   padding: 0;
+  background-color: #1887b4;
+}
+ul {
+  list-style: none;
 }
