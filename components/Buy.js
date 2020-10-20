@@ -8,10 +8,10 @@ export default function Buy() {
       reply_to: "no",
     });
   }*/
-  const script = document.createElement('script');
+  /*const script = document.createElement('script');
   script.src = "https://www.paypal.com/sdk/js?client-id=AcW3TDR5BIwM9HUVlLJvITP9fo_w5mSdOUCu-PSqtRhl8S1ozx5LeZdDMiIVuC7lfhgRGE8qaiG-rFgT";
   script.async = true;
-  document.body.appendChild(script);
+  document.body.appendChild(script);*/
   paypal.Buttons({
     createOrder: function(data, actions) {
       return actions.order.create({
