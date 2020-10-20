@@ -5,6 +5,7 @@ import Link from 'next/link'
 
 export default function Products(){
   return (
+    <div>
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -16,5 +17,6 @@ export default function Products(){
           testing
         </p>
       </main>
+    </div>
   )
 };
