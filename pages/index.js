@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
+import Buy from '@components/Buy'
 import Footer from '@components/Footer'
 import Link from 'next/link'
 
@@ -13,6 +14,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my app!" />
+        <Buy/>
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
