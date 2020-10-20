@@ -5,6 +5,22 @@ import Footer from '@components/Footer'
 import Link from 'next/link'
 
 export default function Home() {
+  paypal.Buttons({
+    createOrder: function(data, actions) {
+      return actions.order.create({
+        purchase_units: [{
+          amount: {
+            value: '1.00'
+          }
+        }]
+      });
+    },
+    onApprove: function(data, actions) {
+      return actions.order.capture().then(function(details) {
+        alert('Transaction completed by ' + details.payer.name.given_name);
+      });
+    }
+  }).render('#paypal-button-container');
   return (
     <div className="container">
       <Head>
@@ -15,7 +31,7 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my app!" />
-        <Buy/>
+        //<Buy/>
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
