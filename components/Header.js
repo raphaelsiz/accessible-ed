@@ -1,3 +1,4 @@
+import styles from './Header.modules.css';
 export default function Header({ title }) {
   return (
     <div class="header">
