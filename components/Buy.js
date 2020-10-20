@@ -8,29 +8,25 @@ export default function Buy() {
       reply_to: "no",
     });
   }
+  paypal.Buttons({
+    createOrder: function(data, actions) {
+      return actions.order.create({
+        purchase_units: [{
+          amount: {
+            value: '1.00'
+          }
+        }]
+      });
+    },
+    onApprove: function(data, actions) {
+      return actions.order.capture().then(function(details) {
+        alert('Transaction completed by ' + details.payer.name.given_name);
+      });
+    }
+  }).render('#paypal-button-container');
 
   return (
     <script src="https://www.paypal.com/sdk/js?client-id=AcW3TDR5BIwM9HUVlLJvITP9fo_w5mSdOUCu-PSqtRhl8S1ozx5LeZdDMiIVuC7lfhgRGE8qaiG-rFgT"></script>
-    <script src="die.js"></script>
-    <script src="script.js"></script>
     <div id="paypal-button-container"></div>
-    <script>
-      paypal.Buttons({
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{
-              amount: {
-                value: '1.00'
-              }
-            }]
-          });
-        },
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-            alert('Transaction completed by ' + details.payer.name.given_name);
-          });
-        }
-      }).render('#paypal-button-container'); // Display payment options on your web page
-    </script>
   );
 }
