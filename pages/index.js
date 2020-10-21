@@ -19,6 +19,7 @@ export default function Home() {
       <Footer />
       <style jsx>{`
         .page {
+          top: 120px;
           display: flex;	
           flex-direction: column;	
           justify-content: center;
