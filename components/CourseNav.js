@@ -11,7 +11,6 @@ export default function CourseNav(){
           width: 100%;
           position: static;
           left: 0px;
-          top: 0px;
           margin: 0px;
           padding: 0px;
           background: #188888;
