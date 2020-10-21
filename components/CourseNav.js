@@ -10,13 +10,13 @@ export default function CourseNav(){
         div {
           width: 100%;
           position: absolute;
+          top: 0px;
           left: 0px;
           margin: 0px;
           padding: 0px;
-          background: #188888;
+          background: #111111;
         }
         ul {
-          background: #1887b4;
           list-style: none;
           display: flex;
         }
