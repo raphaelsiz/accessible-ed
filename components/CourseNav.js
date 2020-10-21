@@ -10,7 +10,7 @@ export default function CourseNav(){
         div {
           width: 100%;
           position: static;
-          top: 600px
+          top: 60px
           left: 0px;
           margin: 0px;
           padding: 0px;
