@@ -25,7 +25,8 @@ export default function Home() {
       <Footer />
       <style jsx>{`
         .page {
-          margin-top: 60px;
+          top: 60px;
+          position: absolute;
           display: flex;	
           flex-direction: column;	
           justify-content: center;
