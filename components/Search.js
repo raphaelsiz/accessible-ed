@@ -10,7 +10,7 @@ export default function Searchbar({props}){
   return (
     <div className="container">
       <label className="search-label" htmlFor="search-input">
-        <input type="text" value="" id="search-input" placeholder="search"></input>
+        <input type="text" value="" id="search-input" placeholder="search"/>
       </label>
       /*<style jsx>{`
         div {
