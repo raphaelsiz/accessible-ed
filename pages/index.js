@@ -13,10 +13,10 @@ export default function Home() {
       </Head>
       <main>
         <Header title="Welcome to my app!" />
+        <div></div>
         <CourseNav/>
         <div className="page">
           <h1>What the fuckkkkkkkkkkkkkkkkkkkkkkkkkkk</h1>
-          <CourseNav/>
         </div>
       </main>
       <Footer />
