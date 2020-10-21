@@ -19,11 +19,11 @@ export default function Home() {
       <Footer />
       <style jsx>{`
         .page {
-          margin-top: 120px;
+          margin-top: 60px;
           display: flex;	
           flex-direction: column;	
           justify-content: center;
-          color: red;
+          //color: red;
         }
       `}</style>
     </div>
