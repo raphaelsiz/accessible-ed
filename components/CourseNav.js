@@ -1,9 +1,10 @@
-import Link from 'next/Link';
+import Link from 'next/link';
 export default function CourseNav(){
   return(
     <div>
       <ul>
-        <li>Testing</li>
+        <li>Testing 1</li>
+        <li>Testing 2</li>
       </ul>
     </div>
   )
