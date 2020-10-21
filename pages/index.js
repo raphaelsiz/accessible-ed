@@ -22,6 +22,7 @@ export default function Home() {
           display: flex;	
           flex-direction: column;	
           justify-content: center;
+          color: red;
         }
       `}</style>
     </div>
