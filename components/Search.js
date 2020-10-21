@@ -12,7 +12,7 @@ export default function Searchbar({props}){
       <label className="search-label" htmlFor="search-input">
         <input type="text" value="" id="search-input" placeholder="search"></input>
       </label>
-      <style jsx>{`
+      /*<style jsx>{`
         div {
           width: 100%;
           position: absolute;
@@ -35,7 +35,7 @@ export default function Searchbar({props}){
           color: white;
           text-decoration: none;
         }
-      `} </style>
+      `} </style>*/
     </div>
 
   )
