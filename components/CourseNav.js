@@ -9,7 +9,7 @@ export default function CourseNav(){
       <style jsx>{`
         div {
           width: 100%;
-          position: absolute;
+          position: relative;
           top: 0px;
           left: 0px;
           margin: 0px;
