@@ -7,6 +7,7 @@ export default function Header({ title }) {
         <li><Link href="/"><a>Home</a></Link></li>
         <li><Link href="/about"><a>About</a></Link></li>
         <li><Link href="/courses"><a>Courses</a></Link></li>
+        <li><Search/></li>
       </ul>
       <Search/>
       <style jsx>{`
