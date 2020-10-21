@@ -1,12 +1,12 @@
 import Link from 'next/link';
 export default function Searchbar({props}){
-  this.state = {
+/*  this.state = {
     query: '',
     results: {
     },
     loading: false,
     message: ''
-  }
+  }*/
   return (
     <div className="container">
       <label className="search-label" htmlFor="search-input">
