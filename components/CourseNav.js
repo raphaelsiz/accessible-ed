@@ -1,6 +1,7 @@
 import Link from 'next/link';
 export default function CourseNav(){
   return(
+    <div>
     <div className="main">
       <ul>
         <li><Link href="/"><a>Home</a></Link></li>
@@ -61,6 +62,7 @@ export default function CourseNav(){
           text-decoration: none;
         }
       `}</style>
+    </div>
     </div>
   )
 };
