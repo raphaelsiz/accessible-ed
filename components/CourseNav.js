@@ -29,7 +29,7 @@ export default function CourseNav(){
           color: white;
           text-decoration: none;
         }
-      `}
+      `}</style>
     </div>
   )
 };
