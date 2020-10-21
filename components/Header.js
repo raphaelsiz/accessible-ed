@@ -9,7 +9,6 @@ export default function Header({ title }) {
         <li><Link href="/courses"><a>Courses</a></Link></li>
         <li><Search/></li>
       </ul>
-      <Search/>
       <style jsx>{`
         div {
           width: 100%;
