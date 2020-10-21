@@ -12,9 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header title="Welcome to my app!" />
-        <div></div>
-        <CourseNav/>
+        <div>
+          <Header title="Welcome to my app!" />
+        </div>
+        <div>
+          <CourseNav/>
+        </div>
         <div className="page">
           <h1>What the fuckkkkkkkkkkkkkkkkkkkkkkkkkkk</h1>
         </div>
