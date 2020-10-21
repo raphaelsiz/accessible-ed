@@ -1,5 +1,5 @@
 import Link from 'next/Link';
-export default CourseNav(){
+export default function CourseNav(){
   return(
     <div>
       <ul>
