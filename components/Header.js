@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Search from '@components/Search';
 export default function Header({ title }) {
   return (
     <div>
@@ -7,6 +8,7 @@ export default function Header({ title }) {
         <li><Link href="/about"><a>About</a></Link></li>
         <li><Link href="/courses"><a>Courses</a></Link></li>
       </ul>
+      <Search/>
       <style jsx>{`
         div {
           width: 100%;
