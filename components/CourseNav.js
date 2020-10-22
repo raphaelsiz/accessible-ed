@@ -14,6 +14,7 @@ export default function CourseNav(){
         div.main {
           width: 100%;
           position: absolute;
+          display: block;
           left: 0px;
           top: 0px;
           margin: 0px;
@@ -46,6 +47,7 @@ export default function CourseNav(){
           position: static;
           top: 60px
           left: 0px;
+          display: block;
           margin: 0px;
           padding: 0px;
           background: #111111;
